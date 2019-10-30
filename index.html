@@ -24,6 +24,20 @@
               </div>
         </div>
     </div>
+
+      <div class="row align-items-center h-100" style="margin-top:150px;">
+        <div class="col-6 mx-auto">
+            <div class="jumbotron">
+                <div id="myAttorney"></div>
+            </div>
+        </div>
+        <div class="col-6 mx-auto">
+              <div class="jumbotron">
+                  <div id="welcome"></div>
+              </div>
+        </div>
+    </div>
+
 </div>
          
   
@@ -51,6 +65,17 @@
   loop: true,
   autoplay: true,
   path: 'welcome.json'
+})
+    </script>
+        </script>
+
+       <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('schedule'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'schedule.json'
 })
     </script>
   </body>
