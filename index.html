@@ -33,7 +33,7 @@
         </div>
         <div class="col-6 mx-auto">
               <div class="jumbotron">
-                  <div id=""></div>
+                  <div id="debtTracker"></div>
               </div>
         </div>
     </div>
@@ -76,6 +76,15 @@
   loop: true,
   autoplay: true,
   path: 'schedule.json'
+})
+    </script>
+           <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('debtTracker'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'debtTracker.json'
 })
     </script>
   </body>
