@@ -38,6 +38,20 @@
         </div>
     </div>
 
+     <div class="spacer" style="height: 150px; width:100%;"></div>
+      <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto">
+            <div class="jumbotron">
+                <div id="control"></div>
+            </div>
+        </div>
+        <div class="col-6 mx-auto">
+              <div class="jumbotron">
+                  <div id=""></div>
+              </div>
+        </div>
+    </div>
+
 </div>
          
   
@@ -85,6 +99,16 @@
   loop: true,
   autoplay: true,
   path: 'debtTracker.json'
+})
+    </script>
+        </script>
+           <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('control'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'control.json'
 })
     </script>
   </body>
