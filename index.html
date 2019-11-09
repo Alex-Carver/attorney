@@ -26,10 +26,15 @@
     </div>
 
       <div class="row align-items-center h-100">
-        <div class="col-md-12 mx-auto">
+        <div class="col-6 mx-auto">
             <div class="jumbotron">
-                <div id="data"></div>
+                <div id="schedule"></div>
             </div>
+        </div>
+        <div class="col-6 mx-auto">
+              <div class="jumbotron">
+                  <div id="debtTracker"></div>
+              </div>
         </div>
     </div>
 
@@ -80,11 +85,11 @@
 
        <script type="text/javascript">
       var animation = bodymovin.loadAnimation({
-  container: document.getElementById('data'),
+  container: document.getElementById('schedule'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'data.json'
+  path: 'schedule.json'
 })
     </script>
            <script type="text/javascript">
