@@ -47,6 +47,18 @@
         </div>
         <div class="col-6 mx-auto">
               <div class="jumbotron">
+                  <div id="attorneySchedule"></div>
+              </div>
+        </div>
+    </div>
+       <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto">
+            <div class="jumbotron">
+                <div id="sync"></div>
+            </div>
+        </div>
+        <div class="col-6 mx-auto">
+              <div class="jumbotron">
                   <div id=""></div>
               </div>
         </div>
@@ -111,5 +123,26 @@
   path: 'control.json'
 })
     </script>
+
+               <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('attorneySchedule'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'attorneySchedule.json'
+})
+    </script>
+
+               <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('sync'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'sync.json'
+})
+    </script>
+
   </body>
 </html>
