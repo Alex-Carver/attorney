@@ -10,57 +10,13 @@
 
     <title>Modal Animnations</title>
   </head>
-  <body style="background-color: #e9ecef;">
+  <body>
 <div class="container h-100">
     <div class="row align-items-center h-100">
-        <div class="col-6 mx-auto">
+        <div class="col-12 mx-auto">
             <div class="jumbotron">
                 <div id="myAttorney"></div>
             </div>
-        </div>
-        <div class="col-6 mx-auto">
-              <div class="jumbotron">
-                  <div id="welcome"></div>
-              </div>
-        </div>
-    </div>
-
-      <div class="row align-items-center h-100">
-        <div class="col-6 mx-auto">
-            <div class="jumbotron">
-                <div id="schedule"></div>
-            </div>
-        </div>
-        <div class="col-6 mx-auto">
-              <div class="jumbotron">
-                  <div id="debtTracker"></div>
-              </div>
-        </div>
-    </div>
-
-    
-      <div class="row align-items-center h-100">
-        <div class="col-6 mx-auto">
-            <div class="jumbotron">
-                <div id="control"></div>
-            </div>
-        </div>
-        <div class="col-6 mx-auto">
-              <div class="jumbotron">
-                  <div id="attorneySchedule"></div>
-              </div>
-        </div>
-    </div>
-       <div class="row align-items-center h-100">
-        <div class="col-6 mx-auto">
-            <div class="jumbotron">
-                <div id="sync"></div>
-            </div>
-        </div>
-        <div class="col-6 mx-auto">
-              <div class="jumbotron">
-                  <div id=""></div>
-              </div>
         </div>
     </div>
 
@@ -74,75 +30,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="bodymovin.js"></script>
+
     <script type="text/javascript">
       var animation = bodymovin.loadAnimation({
-  container: document.getElementById('myAttorney'),
+  container: document.getElementById('lilac'),
   renderer: 'svg',
-  loop: true,
+  loop: false,
   autoplay: true,
-  path: 'myAttorney.json'
+  path: 'lilac.json'
 })
     </script>
 
-       <script type="text/javascript">
-      var animation = bodymovin.loadAnimation({
-  container: document.getElementById('welcome'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'welcome.json'
-})
-    </script>
-    
 
-       <script type="text/javascript">
-      var animation = bodymovin.loadAnimation({
-  container: document.getElementById('schedule'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'schedule.json'
-})
-    </script>
-           <script type="text/javascript">
-      var animation = bodymovin.loadAnimation({
-  container: document.getElementById('debtTracker'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'debtTracker.json'
-})
-    </script>
-       
-           <script type="text/javascript">
-      var animation = bodymovin.loadAnimation({
-  container: document.getElementById('control'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'control.json'
-})
-    </script>
-
-               <script type="text/javascript">
-      var animation = bodymovin.loadAnimation({
-  container: document.getElementById('attorneySchedule'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'attorneySchedule.json'
-})
-    </script>
-
-               <script type="text/javascript">
-      var animation = bodymovin.loadAnimation({
-  container: document.getElementById('sync'),
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'sync.json'
-})
-    </script>
 
   </body>
 </html>
