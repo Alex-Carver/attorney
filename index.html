@@ -15,24 +15,36 @@
     <div class="row align-items-center h-100">
         <div class="col-6 mx-auto">
             <div class="jumbotron" style="background: transparent!important;">
-                <div id="attorney"></div>
+                <div id="memberModal1"></div>
             </div>
         </div>
           <div class="col-6 mx-auto">
             <div class="jumbotron" style="background: transparent!important;">
-                <div id="strategy"></div>
+                <div id="memberModal2"></div>
             </div>
         </div>
     </div>
      <div class="row align-items-center h-100">
         <div class="col-6 mx-auto">
             <div class="jumbotron" style="background: transparent!important;">
-                <div id="debtTracker"></div>
+                <div id="memberModal2"></div>
             </div>
         </div>
           <div class="col-6 mx-auto">
             <div class="jumbotron" style="background: transparent!important;">
-                <div id="sync"></div>
+                <div id="attorneyModal1"></div>
+            </div>
+        </div>
+    </div>
+       <div class="row align-items-center h-100">
+        <div class="col-6 mx-auto">
+            <div class="jumbotron" style="background: transparent!important;">
+                <div id="attorneyModal2"></div>
+            </div>
+        </div>
+          <div class="col-6 mx-auto">
+            <div class="jumbotron" style="background: transparent!important;">
+                <div id="attorneyModal3"></div>
             </div>
         </div>
     </div>
@@ -50,41 +62,61 @@
 
     <script type="text/javascript">
       var animation = bodymovin.loadAnimation({
-  container: document.getElementById('attorney'),
+  container: document.getElementById('memberModal1'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'attorney.json'
+  path: 'memberModal1.json'
 })
     </script>
 
         <script type="text/javascript">
       var animation = bodymovin.loadAnimation({
-  container: document.getElementById('strategy'),
+  container: document.getElementById('memberModal2'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'strategy.json'
+  path: 'memberModal2.json'
 })
     </script>
 
         <script type="text/javascript">
       var animation = bodymovin.loadAnimation({
-  container: document.getElementById('debtTracker'),
+  container: document.getElementById('memberModal3'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'debtTracker.json'
+  path: 'memberModal3.json'
+})
+    </script>
+
+            <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('attorneyModal1'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'attorneyModal1.json'
+})
+    </script>
+
+            <script type="text/javascript">
+      var animation = bodymovin.loadAnimation({
+  container: document.getElementById('attorneyModal2'),
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'attorneyModal2.json'
 })
     </script>
 
         <script type="text/javascript">
       var animation = bodymovin.loadAnimation({
-  container: document.getElementById('sync'),
+  container: document.getElementById('attorneyModal3'),
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: 'sync.json'
+  path: 'attorneyModal3.json'
 })
     </script>
 
